@@ -1,0 +1,281 @@
+body, body *{
+
+	color:#fff !important;
+
+}
+
+a{
+		outline:0 !important;
+}
+
+
+body:not(.social-icons){
+	font-family: 'Cutive Mono'!important ;
+}
+
+::selection {
+  background: rgb(0,192,255); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(0,192,255); /* Gecko Browsers */
+}
+
+.nav >li >a:hover{
+	background:none !important;
+	color: rgb(0,192,255) !important;
+	font-weight:bold;
+}
+
+.nav >li >a:focus{
+	background:none !important;
+	color: rgb(0,192,255) !important;
+	font-weight:bold;
+
+}
+
+.fa:hover{
+	color: rgb(0,192,255) !important;
+}
+
+
+
+
+.navbar .nav > li {
+	
+    float:none;
+    display:inline-block;
+    *display:inline; /* Internet Explorer 7 compatibility */
+    *zoom:1;
+    vertical-align: top;
+    font-size:1.6em;
+ padding-right:30px;
+}
+
+ 
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+         margin-right: 0 !important;
+         margin-left: 0 !important;
+        }
+
+
+
+
+
+
+h1{
+	font-family: 'Josefin Sans' !important;
+
+	
+}
+
+.page-title{
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:4em;-moz-binding;
+	padding-bottom:15px; 
+}
+
+
+
+
+
+.page-text{
+	font-size:1.6em;
+}
+
+
+.slogan{
+	margin-top:-10px;
+}
+
+.social-icons{
+	margin-top:-10px;
+}
+
+
+.portfolio-row{
+	
+}
+
+.portfolio-item{
+	display:inline-block;
+	vertical-align:middle;
+height:100%;
+	border-radius:30px;
+	margin-top:30px;
+	
+	background-color:#fff;
+}
+
+.portfolio-image{
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;	
+}
+
+#subfocus-image{
+
+}
+
+
+
+
+
+
+
+
+#section1{
+	
+	background: url(Images/6.jpg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
+
+
+
+#section2, #section3 , #section4{
+	background-color:#000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-wrap{
+	padding-top:40px;
+}
+
+.slider-image{
+	padding-right:20px;
+	
+}
+        
+.logo{
+	position:absolute;
+	top:15px;
+	left:15px;
+	width:75px;
+	height:75px;
+}  
+
+
+
+.contact-form{
+	padding-top:20px;
+	
+}   
+
+.contact-label{
+	margin-top:15px;
+	text-transform:uppercase;
+	font-size:2em;
+	
+	
+	
+} 
+
+.contact-input {
+		margin-top:15px;
+		border: #fff solid 3px !important;
+		background-color:#000 !important;
+		font-size:1.5em !important;
+		
+	
+}
+
+.contact-submit{
+	margin-top:15px;
+	color:#000 !important;
+		background:#fff !important;
+		text-transform:uppercase;
+	font-size:1.5em !important;
+	font-weight:bolder;
+	height:2.5em !important;
+	border:none !important;
+
+}
+
+.contact-submit:hover{
+	
+	background:rgb(0,192,255) !important;
+
+}
+
+.form-control:focus  {
+  border-color:rgb(0,192,255)!important ;
+  box-shadow:   0 3px 3px rgba(0,192,255, 0.55), 0 0 3px rgba(0,192,255, 0.5) !important;
+}
+
+.curFocus{
+	color: rgb(0,192,255)!important ;
+	
+}
+
+.antispam{
+	display:none;
+}
+
+.form-submit-page{
+	background:#000;
+}
+
+
+
+    
+
+@media only screen and (max-width : 480px) {
+	
+.navbar{
+	display:none;
+}	
+	
+.page-title{
+
+	font-size:3em;-moz-binding;
+	
+}
+
+.page-text{
+	font-size:1.4em;
+}
+
+.slogan {
+	font-size:1.6em;
+}
+
+.contact-label{
+	padding-top:10px;
+	font-size:1.3em;
+}
+
+.contact-text{
+	display:none;
+}
+
+.contact-submit{
+	font-size:0.75em!important;
+}
+
+}
+
+
+
+
+
+
+
+
+
