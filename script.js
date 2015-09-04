@@ -1,10 +1,6 @@
 $(document).ready(function() {
 	
-	
-	
-	
-	
-	
+
 		
     $('#fullpage').fullpage({
     	css3:true,
@@ -13,21 +9,15 @@ $(document).ready(function() {
 		continuousVertical: true,
 		recordHistory: false,
 		scrollBar: true,
-		menu: '#myMenu',
-		
+		menu: '#myMenu',		
 		afterRender: function(){
-			
-			
 			$("input").focus(function() {			
-		$("label[for='" + this.id + "']").addClass("curFocus");
-	})
-	
-		$("input").blur(function(){
-			$("label[for='" + this.id + "']").removeClass("curFocus");
-		})
-				
-				
-				
+				$("label[for='" + this.id + "']").addClass("curFocus");
+			})
+			$("input").blur(function(){
+				$("label[for='" + this.id + "']").removeClass("curFocus");
+		})	
+
 $('.slider').slick({
   
   infinite: true,

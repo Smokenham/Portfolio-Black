@@ -8,6 +8,28 @@ a{
 		outline:0 !important;
 }
 
+.logo{
+	position:absolute;
+	display:block;
+	 background: url(Images/dh.png) no-repeat;
+      top:15px;
+	left:15px;
+	width:75px;
+	height:100px;
+       background-size:cover;
+	
+}
+
+.logo:hover{
+	  background-position: 0 -98px;
+	
+}
+
+
+
+
+
+
 
 body:not(.social-icons){
 	font-family: 'Cutive Mono'!important ;
@@ -163,13 +185,6 @@ height:100%;
 	
 }
         
-.logo{
-	position:absolute;
-	top:15px;
-	left:15px;
-	width:75px;
-	height:75px;
-}  
 
 
 
